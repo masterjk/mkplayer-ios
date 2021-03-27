@@ -26,14 +26,6 @@ Pod::Spec.new do |spec|
     spec.ios.dependency 'BitmovinAnalyticsCollector/Core', '1.18.2'
     spec.ios.dependency 'BitmovinAnalyticsCollector/BitmovinPlayer', '1.18.2'
     
-    spec.tvos.vendored_frameworks = 'MKPlayer/tvOS/MKPlayer.framework'
-    spec.tvos.framework  = 'Foundation'
-    spec.tvos.framework  = 'UIKit'
-    spec.tvos.framework  = 'AVFoundation'
-    spec.tvos.framework  = 'AVKit'
-    spec.tvos.dependency 'Alamofire', '~> 5.2'
-    spec.tvos.dependency 'BitmovinPlayer', '2.61.1'
-
     spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=*simulator*]' => 'arm64' }
     spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=*simulator*]' => 'arm64' }
 
