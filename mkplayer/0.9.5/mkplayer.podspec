@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
     spec.ios.framework  = 'AVKit'
     spec.ios.framework  = 'WebKit'
     spec.ios.dependency 'Alamofire', '~> 5.2'
-    spec.ios.dependency 'BitmovinPlayer', '2.61.1'
+    spec.ios.dependency 'BitmovinPlayer', '2.56.0'
     spec.ios.dependency 'BitmovinAnalyticsCollector/Core', '1.18.2'
     spec.ios.dependency 'BitmovinAnalyticsCollector/BitmovinPlayer', '1.18.2'
     
